@@ -12,7 +12,7 @@ export default function App() {
           {" "}
           <a
             className="App-link"
-            href="https://github.com/Iryna1V/WeatherApp"
+            href="https://github.com/Iryna1V/react-app"
             target="_blank"
             rel="noopener noreferrer"
           >
