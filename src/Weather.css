@@ -1,0 +1,93 @@
+.Weather {
+  border: 2px double rgb(210, 196, 230);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  border-radius: 32px;
+  padding: 40px;
+  background: linear-gradient(
+    0deg,
+    rgb(122, 233, 189) 23.8%,
+    rgb(74, 221, 229) 92%
+  );
+}
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.Weather canvas {
+  margin: 10px auto;
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.btn {
+  border: none;
+}
+
+.btn-primary {
+  font-family: "Roboto Mono", monospace, sans-serif !important;
+  font-weight: 400;
+  width: 90px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: -2px;
+  text-align: center;
+
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.btn-primary:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.form-control {
+  box-shadow: -7px 4px 5px 0px rgba(87, 117, 214, 0.3);
+}
